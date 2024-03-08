@@ -27,7 +27,7 @@ void exercise_2(double A, double B, double C) {
   
   if(p>=0){
     if(A==0){
-      cout<<(-C)/B;
+      cout<<(-C)/B<<endl;
      }
     else if(x1==x2){
     cout<<x1<<endl;
@@ -38,7 +38,7 @@ void exercise_2(double A, double B, double C) {
     }
   } 
   else{
-      
+      cout<<"";
   }
 
 

@@ -24,23 +24,22 @@ void exercise_2(double A, double B, double C) {
   p=sqrt((B*B)-4*A*C);
   x1=(-B+(sqrt((B*B)-4*A*C)))/(2*A);
   x2=(-B-(sqrt((B*B)-4*A*C)))/(2*A);
-  
-  if(p>=0){
-    if(A==0){
-      cout<<(-C)/B<<endl;
-     }
-    else if(x1==x2){
-    cout<<x1<<endl;
+  if(A==0){
+      cout<<(-C)/B<<endl; 
+  else if(p>=0){
+  else if(x1==x2)
+  cout<<x1<<endl;
     } 
-    else{
+  else{
         cout<<x1<<" ";
         cout<<x2<<endl;
     }
   } 
+
   else{
       cout<<"";
   }
-
+}
 
 }
 

@@ -38,7 +38,7 @@ void exercise_2(double A, double B, double C) {
   } 
 
   else{
-      cout<<"";
+        cout<<"\"\"";
   }
 
 }

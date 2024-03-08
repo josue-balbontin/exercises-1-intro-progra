@@ -26,10 +26,10 @@ void exercise_2(double A, double B, double C) {
   x2=(-B-(sqrt((B*B)-4*A*C)))/(2*A);
   if(p>=0){
     if(x1==x2){
-    cout<<x1;
+    cout<<x1<<endl;
     } 
     else{
-        cout<<x1<<"";
+        cout<<x1<<" ";
         cout<<x2<<endl;
     }
   } 

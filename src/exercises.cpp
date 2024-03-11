@@ -20,13 +20,16 @@ void exercise_1(string s1, string s2, string s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-      double p=0,x1,x2;
+  double p=0,x1,x2;
   p=(B*B)-4*A*C;
   x1=(-B+(sqrt((B*B)-4*A*C)))/(2*A);
   x2=(-B-(sqrt((B*B)-4*A*C)))/(2*A);
-  if(A==0){
+  if(A==0 && B != 0){
       cout<<(-C)/B<<endl;
-    }   
+    }  
+    else if(A == 0 && B == 0 || B==0 && C==0) {
+        cout<<"";
+    }
   else if(p>=0)
   {
     if(x1==x2){
@@ -37,7 +40,6 @@ void exercise_2(double A, double B, double C) {
         cout<<x2<<endl;
     }
   } 
-
   else{
         cout<<"";
   }

@@ -21,14 +21,15 @@ void exercise_1(string s1, string s2, string s3) {
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
       double p=0,x1,x2;
-  p=sqrt((B*B)-4*A*C);
+  p=(B*B)-4*A*C;
   x1=(-B+(sqrt((B*B)-4*A*C)))/(2*A);
   x2=(-B-(sqrt((B*B)-4*A*C)))/(2*A);
   if(A==0){
       cout<<(-C)/B<<endl;
     }   
   else if(p>=0)
-  {if(x1==x2){
+  {
+    if(x1==x2){
             cout<<x1<<endl;
     } 
         else{
@@ -40,7 +41,6 @@ void exercise_2(double A, double B, double C) {
   else{
         cout<<"";
   }
-
 }
 
 void exercise_3(int a, int b) {

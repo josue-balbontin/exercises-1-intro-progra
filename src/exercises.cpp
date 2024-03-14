@@ -71,32 +71,32 @@ void exercise_8(long int seconds) {
     long int minutes = (seconds-hours*(60*60))/60; 
     long int show_seconds = seconds-minutes*60-hours*(60*60);
     if (seconds <0){
-        cout<<"Error: Input seconds cannot be negative.";
+        cout<<"Error: Input seconds cannot be negative."<<endl;
     }
     else if (hours <10 && minutes<10 && show_seconds<10)
     {
-         cout<<0<<hours<<":"<<0<<minutes<<":"<<0<<show_seconds;
+         cout<<0<<hours<<":"<<0<<minutes<<":"<<0<<show_seconds<<endl;
     }
     else if(hours <10 && minutes<10){
-        cout<<0<<hours<<":"<<0<<minutes<<":"<<show_seconds;
+        cout<<0<<hours<<":"<<0<<minutes<<":"<<show_seconds<<endl;
     }
     else if (hours <10 && show_seconds<10){
-         cout<<0<<hours<<":"<<minutes<<":"<<0<<show_seconds;
+         cout<<0<<hours<<":"<<minutes<<":"<<0<<show_seconds<<endl;
     }
     else if (minutes<10 && show_seconds<10){
-        cout<<hours<<":"<<0<<minutes<<":"<<0<<show_seconds;
+        cout<<hours<<":"<<0<<minutes<<":"<<0<<show_seconds<<endl;
     }
     else if (hours <10){
-        cout<<0<<hours<<":"<<minutes<<":"<<show_seconds;
+        cout<<0<<hours<<":"<<minutes<<":"<<show_seconds<<endl;
     }
     else if (minutes<10){
-        cout<<hours<<":"<<0<<minutes<<":"<<show_seconds;
+        cout<<hours<<":"<<0<<minutes<<":"<<show_seconds<<endl;
     }
     else if (show_seconds<10){
-        cout<<hours<<":"<<minutes<<":"<<0<<show_seconds;
+        cout<<hours<<":"<<minutes<<":"<<0<<show_seconds<<endl;
     }
     else{
-        cout<<hours<<":"<<minutes<<":"<<show_seconds;
+        cout<<hours<<":"<<minutes<<":"<<show_seconds<<endl;
         
     }
 }

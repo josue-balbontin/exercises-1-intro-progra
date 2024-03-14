@@ -67,6 +67,38 @@ void exercise_7(double r) {
 
 void exercise_8(long int seconds) {
   // TODO: YOUR CODE HERE
+    long int hours=seconds/(60*60);
+    long int minutes = (seconds-hours*(60*60))/60; 
+    long int show_seconds = seconds-minutes*60-hours*(60*60);
+    if (seconds <0){
+        cout<<"Error: Input seconds cannot be negative.";
+    }
+    else if (hours <10 && minutes<10 && show_seconds<10)
+    {
+         cout<<0<<hours<<":"<<0<<minutes<<":"<<0<<show_seconds;
+    }
+    else if(hours <10 && minutes<10){
+        cout<<0<<hours<<":"<<0<<minutes<<":"<<show_seconds;
+    }
+    else if (hours <10 && show_seconds<10){
+         cout<<0<<hours<<":"<<minutes<<":"<<0<<show_seconds;
+    }
+    else if (minutes<10 && show_seconds<10){
+        cout<<hours<<":"<<0<<minutes<<":"<<0<<show_seconds;
+    }
+    else if (hours <10){
+        cout<<0<<hours<<":"<<minutes<<":"<<show_seconds;
+    }
+    else if (minutes<10){
+        cout<<hours<<":"<<0<<minutes<<":"<<show_seconds;
+    }
+    else if (show_seconds<10){
+        cout<<hours<<":"<<minutes<<":"<<0<<show_seconds;
+    }
+    else{
+        cout<<hours<<":"<<minutes<<":"<<show_seconds;
+        
+    }
 }
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {

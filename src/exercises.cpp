@@ -116,6 +116,15 @@ else{
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
+int a=8 ,b=17;
+int S=a+b;
+if (a<0 || b<0){
+    cout<<0<<endl;
+}
+else {
+    cout<<S*2<<endl;
+}
+
 }
 
 string exercise_11(int number) {

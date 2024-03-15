@@ -119,7 +119,7 @@ int exercise_10(int a, int b) {
 int r=(a+b);
 string s1=to_string (r);
 int letter=s1.size();
-int end =r+(letter-1);
+int end =r*(letter);
 if (a<0 || b<0){
     return 0;
 }

@@ -116,12 +116,11 @@ else{
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-int S=a+b;
 if (a<0 || b<0){
     cout<<0<<endl;
 }
 else {
-    cout<<S*2<<endl;
+    cout<<(a+b)*2<<endl;
 }
 
 }

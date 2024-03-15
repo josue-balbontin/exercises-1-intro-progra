@@ -103,13 +103,15 @@ void exercise_8(long int seconds) {
 
 string exercise_9(string s1, string s2, string s3, string s4, string s5) {
   // TODO: YOUR CODE HERE
-  if(s1[0]==s5[0]){
-    cout<<"Hemos encontrado algo!";
+cout<<s1<<s2<<s3<<s4<<s5<<endl;
+string suerte="Aun sin suerte";
+string mala_suerte="Hemos encontrado algo!";
+if(s1[0]==s5[0]){
+    return suerte;
 }
 else{
-      return "Aun sin suerte";
+    return mala_suerte;
 }
-
 }
 
 int exercise_10(int a, int b) {

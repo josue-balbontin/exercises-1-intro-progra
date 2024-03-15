@@ -117,10 +117,10 @@ else{
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
 if (a<0 || b<0){
-    cout<<0<<endl;
+    cout<<0;
 }
 else {
-    cout<<(a+b)*2<<endl;
+    cout<<(a+b)*2;
 }
 
 }

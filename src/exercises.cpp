@@ -116,12 +116,15 @@ else{
 
 int exercise_10(int a, int b) {
   // TODO: YOUR CODE HERE
-int r=(a+b)*2;
+int r=(a+b);
+string s1=to_string (r);
+int letter=s1.size();
+int end =r+(letter-1);
 if (a<0 || b<0){
     return 0;
 }
 else {
-    return r;
+    return end;
 }
 
 }

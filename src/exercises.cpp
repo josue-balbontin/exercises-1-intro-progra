@@ -245,4 +245,49 @@ void exercise_15(int a, int b, int c) {
 
 void exercise_16(int debut, int fin) {
   // TODO: YOUR CODE HERE
+    int h1=0,h2=0;
+    if (debut<0 || debut>24 || fin<0 || fin>24){
+        cout<<"Las horas deben estar entre 0 y 24!";
+        
+    }
+    else if (debut==fin){
+        cout<<"Las horas deben estar entre 0 y 24!";
+    }
+    else if(fin<debut){
+        cout<<"Que extraño, el inicio del alquiler es después del final...";
+    }
+    
+    else{   
+    while(debut<7 ){
+            h1++;
+          debut++;
+          
+    }
+    while(debut<17){
+             h2++;
+            debut++;
+        }
+    while(debut<fin){
+              h1++;
+            debut++;
+    }
+    }
+    cout<<"Has alquilado una bicicleta por"<<endl;
+    if(h1>0 && h2>0){
+        cout<<h1<<" hora(s) con el tarifario de 1 boliviano(s)"<<endl;
+        cout<<h2<<" hora(s) con el tarifario de 2 boliviano(s)"<<endl;
+        cout<<"El monto total a pagar es de "<<h1+h2*2 <<" boliviano(s).";
+    }
+    if(h1==0){
+        cout<<h2<<" hora(s) con el tarifario de 2 boliviano(s)"<<endl;
+        cout<<"El monto total a pagar es de "<<h2*2 <<" boliviano(s).";
+    }
+    if(h2==0){
+        cout<<h1<<" hora(s) con el tarifario de 1 boliviano(s)"<<endl;
+         cout<<"El monto total a pagar es de "<<h1<<" boliviano(s).";
+    }
+    
+    
+
+
 }

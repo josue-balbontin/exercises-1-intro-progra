@@ -218,7 +218,7 @@ string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
 string num_do_str=to_string(number_of_docs);
 string message=num_do_str+"documentos encontrados.";
-if(number_of_docs==0){
+if(number_of_docs<=0){
     return "No se encontraron documentos";
 }
 if(number_of_docs==1){
@@ -231,6 +231,13 @@ else{
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+    int d=a;
+    a=c;
+    c=b;
+    b=d;
+    cout<<"Los valores son: a = "<<a<<" b = "<<b<<" y c = "<<c<<endl;
+    cout<<"Permutamos: a => b, b => c, c => a"<<endl;
+    cout<<"Los valores despues de la permutacion son: a = "<<a<<" b = "<<b<<" c = "<<c;
   
 
 }

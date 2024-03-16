@@ -109,6 +109,13 @@ else{
 
 void exercise_7(double r) {
   // TODO: YOUR CODE HERE
+      const double pi=3.140000105; 
+    if(r<0){
+        cout<<"Error: Radius cannot be negative."<<endl;
+    }
+    else{
+        cout<<4*pi*(r*r)<<endl;
+        }
 }
 
 void exercise_8(long int seconds) {

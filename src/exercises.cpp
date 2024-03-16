@@ -70,6 +70,16 @@ else{
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
+  if (character<=64){
+    cout<<"not an alphabet"<<endl;
+}
+else if (character>=65 && character<=96){
+    cout<<"lower-case alphabet"<<endl;
+}
+else if (character>=97){
+    cout<<"upper-case alphabet"<<endl;
+}
+
 }
 
 void exercise_6(int number) {

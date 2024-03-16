@@ -231,6 +231,15 @@ else{
 
 void exercise_15(int a, int b, int c) {
   // TODO: YOUR CODE HERE
+      int d=a;
+    a=c;
+    c=b;
+    b=d;
+    
+    cout<<"Los valores son: a = "<<a<<" b = "<<b<<" y c = "<<c<<endl;
+    cout<<"Permutamos: a => b, b => c, c => a"<<endl;
+    cout<<"Los valores despues de la permutacion son: a = "<<a<<" b = "<<b<<" c = "<<c;
+
 }
 
 void exercise_16(int debut, int fin) {

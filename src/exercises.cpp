@@ -272,19 +272,19 @@ void exercise_16(int debut, int fin) {
             debut++;
     }
     }
-    cout<<"Has alquilado una bicicleta por"<<endl;
+    cout<<"Haz alquilado una bicicleta por"<<endl;
     if(h1>0 && h2>0){
         cout<<h1<<" hora(s) con el tarifario de 1 boliviano(s)"<<endl;
         cout<<h2<<" hora(s) con el tarifario de 2 boliviano(s)"<<endl;
-        cout<<"El monto total a pagar es de "<<h1+h2*2 <<" boliviano(s).";
+        cout<<"El monto total a pagar es de "<<h1+h2*2 <<" boliviano(s)."<<endl;
     }
     if(h1==0){
         cout<<h2<<" hora(s) con el tarifario de 2 boliviano(s)"<<endl;
-        cout<<"El monto total a pagar es de "<<h2*2 <<" boliviano(s).";
+        cout<<"El monto total a pagar es de "<<h2*2 <<" boliviano(s)."<<endl;
     }
     if(h2==0){
         cout<<h1<<" hora(s) con el tarifario de 1 boliviano(s)"<<endl;
-         cout<<"El monto total a pagar es de "<<h1<<" boliviano(s).";
+         cout<<"El monto total a pagar es de "<<h1<<" boliviano(s)."<<endl;
     }
     
     

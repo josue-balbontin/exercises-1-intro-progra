@@ -84,9 +84,8 @@ else if (character>=97){
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
-  switch (number) {
-case 0:
-cout<<"Invalid input"<<endl;break;
+if (number>=1 && number<=7){
+switch (number) {
 case 1:
 cout<<"Monday"<<endl;break;
 case 2:
@@ -102,7 +101,10 @@ cout<<"Saturday"<<endl;break;
 case 7:
 cout<<"Sunday"<<endl;break;
 }
-
+}
+else{
+    cout<<"Invalid input"<<endl;
+}
 }
 
 void exercise_7(double r) {

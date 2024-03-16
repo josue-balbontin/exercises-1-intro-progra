@@ -81,7 +81,6 @@ else if (character>=97){
 }
 }
 
-}
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE

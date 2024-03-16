@@ -237,7 +237,7 @@ void exercise_15(int a, int b, int c) {
     a=c;
     c=b;
     b=d;
-    cout<<"Los valores despues de la permutacion son: a = "<<a<<" b = "<<b<<" c = "<<c;
+    cout<<"Los valores despues de la permutacion son: a = "<<a<<" b = "<<b<<" c = "<<c<<endl;
     
   
 

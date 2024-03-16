@@ -216,7 +216,17 @@ else{
 
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
-  return "";
+  string num_do_str=to_string(number_of_docs)
+string message=num_do_str+"documentos encontrados.";
+if(number_of_docs==0){
+    return "No se encontraron documentos";
+}
+if(number_of_docs==1){
+    return "Se encontro un documento";
+}
+else{
+    return message;
+}
 }
 
 void exercise_15(int a, int b, int c) {

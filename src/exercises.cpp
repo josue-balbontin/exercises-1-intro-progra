@@ -217,7 +217,7 @@ else{
 string exercise_14(int number_of_docs) {
   // TODO: YOUR CODE HERE
 string num_do_str=to_string(number_of_docs);
-string message=num_do_str+" documentos encontrados.";
+string message=num_do_str+" documentos encontrados";
 if(number_of_docs<=0){
     return "No se encontraron documentos";
 }

@@ -255,7 +255,7 @@ void exercise_16(int debut, int fin) {
           fin=50;
     }
     else if (debut==fin){
-        cout<<"Que extraño, no has alquilado tu bicicleta por mucho tiempo"<<endl;
+        cout<<"Que extraño, no has alquilado tu bicicleta por mucho tiempo!"<<endl;
           fin=50;
     }
 

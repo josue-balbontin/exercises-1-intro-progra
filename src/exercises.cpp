@@ -196,6 +196,31 @@ void exercise_12(string color1, int numb1,
                  string color3, int numb3,
                  string color4, int numb4) {
   // TODO: YOUR CODE HERE
+     if (color4==color3 || color4==color2 || color4==color1
+    ) { if(numb4 <0){
+        if(numb3<numb2 && numb3<numb1){
+            cout<<numb3<<endl;
+            if(numb2<numb1){
+                cout<<numb2<<endl;
+            }
+            if(numb1<numb2){
+                cout<<numb1<<endl;
+            }
+            else{
+                cout<<numb2<<endl;
+            }
+    
+        }
+    
+    }
+    }
+    if (color4==color3 || color4==color2 || color4==color1){
+        if(numb4==numb3 || numb4==numb2 || numb4==numb1)
+        {
+            cout<<numb4<<endl;
+        }
+    }
+    
 }
 
 string exercise_13(int age, int years_of_experience) {

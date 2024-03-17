@@ -261,12 +261,12 @@ void exercise_16(int debut, int fin) {
 
     
     else{   
-    while(debut>=0 && debut<7 ){
+    while(debut>=0 && debut<7 && debut<fin ){
             h1++;
           debut++;
           
     }
-    while(debut<17){
+    while(debut<17 && debut<fin){
              h2++;
             debut++;
         }

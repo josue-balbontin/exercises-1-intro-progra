@@ -196,7 +196,12 @@ void exercise_12(string color1, int numb1,
                  string color3, int numb3,
                  string color4, int numb4) {
   // TODO: YOUR CODE HERE
-     if (color4==color3 || color4==color2 || color4==color1
+       if(color4==color3 && color4==color2 &&color4==color1){
+        if(numb4==numb3 && numb4==numb2 && numb4=numb1){
+            cout<<1<<endl<<2<<endl<<3<<endl;
+        }
+    }
+    else if (color4==color3 || color4==color2 || color4==color1
     ) { if(numb4 <0){
         if(numb3<numb2 && numb3<numb1){
             cout<<numb3<<endl;
@@ -214,12 +219,24 @@ void exercise_12(string color1, int numb1,
     
     }
     }
-    if (color4==color3 || color4==color2 || color4==color1){
+   else  if (color4==color3 || color4==color2 || color4==color1){
         if(numb4==numb3 || numb4==numb2 || numb4==numb1)
         {
             cout<<numb4<<endl;
         }
     }
+    
+
+
+
+
+
+
+
+
+
+
+
     
 }
 

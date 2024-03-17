@@ -250,14 +250,15 @@ void exercise_16(int debut, int fin) {
         cout<<"Las horas deben estar entre 0 y 24!"<<endl;
         fin=50;
     }
+        else if(fin<debut){
+        cout<<"Que extraño, el inicio del alquiler es después del final..."<<endl;
+          fin=50;
+    }
     else if (debut==fin){
         cout<<"Las horas deben estar entre 0 y 24!"<<endl;
           fin=50;
     }
-    else if(fin<debut){
-        cout<<"Que extraño, el inicio del alquiler es después del final..."<<endl;
-          fin=50;
-    }
+
     
     else{   
     while(debut>=0 && debut<7 ){
